@@ -2,6 +2,7 @@
 
 def main():
     print('My name is Slim Shady')
+    print(x)
     sys.exit()
 
 if __name__ == '__main__':
