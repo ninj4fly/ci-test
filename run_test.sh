@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-python --version
+python ./test.py
