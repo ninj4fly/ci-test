@@ -1,10 +1,1 @@
-pipeline {
-    agent { docker { image 'python:3.5.1' } }
-    stages {
-        stage('build') {
-            steps {
-                sh './run_test.sh'
-            }
-        }
-    }
-}
+sh 'run_test.sh'
