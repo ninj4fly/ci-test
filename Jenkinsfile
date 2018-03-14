@@ -1,1 +1,3 @@
-sh 'run_test.sh'
+node {
+	sh 'run_test.sh'
+}
